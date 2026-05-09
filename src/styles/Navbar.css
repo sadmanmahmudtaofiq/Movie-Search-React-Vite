@@ -1,0 +1,99 @@
+.navbar {
+  background-color: #0f172ad3;       
+  backdrop-filter: blur(10px);
+  padding: 1rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.navbarBrand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbarBrand a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbarBrand a:hover {
+  color: #60a5fa;
+}
+
+/* Navigation Links */
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navLink {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navLink:hover {
+  color: #60a5fa;
+  transform: translateY(-2px);
+}
+
+/* Active Link Styling */
+.navLink.active {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+/* Underline effect on hover */
+.navLink::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -6px;
+  left: 0;
+  background-color: #60a5fa;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 8%;
+  }
+
+  .navbarLinks {
+    gap: 1.5rem;
+  }
+
+  .navbarBrand {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbarLinks {
+    gap: 1rem;
+  }
+  
+  .navLink {
+    font-size: 1rem;
+  }
+}
