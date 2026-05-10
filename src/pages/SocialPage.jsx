@@ -71,7 +71,7 @@ const SocialMedians = () => {
         {/* Profile Picture & Info */}
         <div className="profile">
           <img
-            src="../public\me.jfif"
+            src="https://avatars.githubusercontent.com/u/167799350?v=4"
             alt="Profile Picture"
             className="profile-pic"
           />
