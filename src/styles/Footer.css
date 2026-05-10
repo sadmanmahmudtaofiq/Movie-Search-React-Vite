@@ -6,8 +6,12 @@
   margin-top: auto; /* Pushes footer to bottom */
   border-top: 1px solid #334155;
   font-size: 0.95rem;
-}
+} 
 
 .footer p {
   margin: 0;
+}
+
+.footer a{
+  color: #60A5FA;
 }
