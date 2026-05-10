@@ -6,8 +6,9 @@
   text-align: center;
   min-height: 60vh;
   padding: 2rem;
-  color: rgb(0, 0, 0);
+  color: #000000 !important;
   margin-top: 100px;
+  background-color: white !important;
 }
 
 .favoritesEempty h2 {
@@ -23,9 +24,11 @@
   line-height: 1.6;
 }
 
-.favorites h2{
+.favorites h2 {
   text-align: center;
   margin: 10px 0;
 }
 
-.favorites{margin-top: 100px;}
+.favorites {
+  margin-top: 100px;
+}
