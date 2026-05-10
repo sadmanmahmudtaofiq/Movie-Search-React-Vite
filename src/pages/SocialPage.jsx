@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/SocialMedians.css";
+import "../styles/SocialMedian.css";
 
-const SocialMedians = () => {
+const SocialMedian = () => {
   const socialLinks = [
     {
       name: "Facebook",
@@ -111,13 +111,9 @@ const SocialMedians = () => {
             </a>
           ))}
         </div>
-
-        <div className="footer">
-          <p>Connect with me across the internet</p>
-        </div>
       </div>
     </div>
   );
 };
 
-export default SocialMedians;
+export default SocialMedian;

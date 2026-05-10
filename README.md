@@ -22,3 +22,7 @@ This project was built following the comprehensive React guide by Tech With Tim:
 
 Under the Getting Started section, you might want to add a note about the API Key since the video requires users to get their own from The Movie Database (TMDB) ([1:01:06](https://www.youtube.com/watch?v=G6D9cBaLViA&t=3666s)).
 Would you like me to help you write a "Prerequisites" section that explains how to set up the environment variables for that API key?
+
+
+
+all by @TAOFIQQ

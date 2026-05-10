@@ -145,7 +145,7 @@ section:hover .imgSection img {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 577px) {
   .movieGrid {
     grid-template-columns: 1fr;
     justify-items: center;

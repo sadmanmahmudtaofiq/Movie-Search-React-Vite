@@ -55,7 +55,6 @@
   .searchFrom {
     flex-direction: column;
     gap: 12px;
-    margin: 20px auto;
   }
 
   .searchFrom .searchInput {

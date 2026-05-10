@@ -12,10 +12,12 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding-top: 100px;
+  padding-bottom: 30px;
+
 }
 
 .container-social {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -55,8 +57,10 @@
 }
 
 .links-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
 
@@ -118,5 +122,12 @@
   }
   .name {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .links-container{
+    grid-template-columns: 1fr;
+    padding: 10px;
   }
 }
